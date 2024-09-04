@@ -6,7 +6,10 @@ dans le deuxième cas 2 fichiers ou plus sont traités, cette fois le programme 
 A makefile is doing the build
 Go to the LineOccurences directory
 ```bash
+cd LinesOccurences
+cd lnid_test
 make
+./lnid [OPTIONS] FILE_1 FILE_2 ...
 ```
 Voici le helper du programme : 
 ![Capture d'écran 2023-11-13 201617](https://github.com/gorimaaa/occurences_lignes/assets/136479651/6ed60a90-09a1-4f65-822d-96a2e5f5dd36)
