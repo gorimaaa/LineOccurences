@@ -16,7 +16,8 @@ make
 We can add options to our search, they are specified in the helper :  
 ```bash
 ./lnid --help
-
+```
+```text
 #  Usage: ./lnid [OPTIONS] FILE [OTHER_FILES]
 #  LIST OF OPTIONS :
 #    -f CLASS or --filter=CLASS : Display lines where the characters respect
@@ -40,9 +41,11 @@ We can add options to our search, they are specified in the helper :
 #   then we will display the lines that occur at least one time in each 
 #   file given, an example of display : 1-->2-->baseball
 ```
-## Screenshots
+## Examples of usage
 First Case of use :  
-![Image1](https://github.com/gorimaaa/occurences_lignes/assets/136479651/61dcb579-9a1b-4cbf-ac02-388072d16229)
+```bash
+
+```
 
 Second case :  
 ![Image2](https://github.com/gorimaaa/occurences_lignes/assets/136479651/249dbd97-4ba1-4a7f-990e-6b43e599a0df)
