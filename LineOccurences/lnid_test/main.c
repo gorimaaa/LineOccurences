@@ -9,8 +9,6 @@
 #include "options.h"
 
 
-
-
 int main(int argc, char **argv) {
   options *opt = opt_initialize();
   int r = EXIT_SUCCESS;

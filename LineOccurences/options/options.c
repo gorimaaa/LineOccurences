@@ -4,7 +4,7 @@
 
 struct options{
   bool filter;
-  int (*is_class)(int); // faire un pointeur de fonction
+  int (*is_class)(int);
   bool sort;
   int (*compar)(const void *, const void *);
   bool uppercase;
