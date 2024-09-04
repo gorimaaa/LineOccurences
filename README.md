@@ -16,8 +16,7 @@ make
 We can add options to our search, they are specified in the helper :  
 ```bash
 ./lnid --help
-```
-```text
+\\\
 #  Usage: ./lnid [OPTIONS] FILE [OTHER_FILES]
 #  LIST OF OPTIONS :
 #    -f CLASS or --filter=CLASS : Display lines where the characters respect
@@ -40,6 +39,7 @@ We can add options to our search, they are specified in the helper :
 #   an example: ./lnid -s standard --uppercasing test1.txt test2.txt, 
 #   then we will display the lines that occur at least one time in each 
 #   file given, an example of display : 1-->2-->baseball
+\\\
 ```
 ## Examples of usage
 First Case of use :  
