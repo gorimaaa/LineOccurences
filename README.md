@@ -1,4 +1,4 @@
-# Occurences_lignes
+# LineOccurences
 Voici le helper du programme : 
 ![Capture d'écran 2023-11-13 201617](https://github.com/gorimaaa/occurences_lignes/assets/136479651/6ed60a90-09a1-4f65-822d-96a2e5f5dd36)
 [Capture vidéo du 03-09-2024 19:05:43.webm](https://github.com/user-attachments/assets/a5cc70ed-3f9e-46ba-be44-a5b71e3d6cb7)
