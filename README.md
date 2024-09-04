@@ -1,9 +1,9 @@
 # LineOccurences
 This project aims to search for occurences in files, there are two type of usage :  
 ### 1st case :  
-1 file is given in parameter, in this case the lines that have at least 2 occurences are displayed like this ```X, Y, Z, ...  LINE``` where X, Y, Z are the line numbers.  
+  1 file is given in parameter, in this case the lines that have at least 2 occurences are displayed like this ```X, Y, Z, ...  LINE``` where ```X, Y, Z``` are the line numbers.  
 ### 2nd case :  
-2 files or more are given, this time the program displays the lines that appear at least one time in each files, ```X, Y, Z, ...  LINE``` where X, Y, Z are the occurences of the line in each file.
+  2 files or more are given, this time the program displays the lines that appear at least one time in each files, ```X, Y, Z, ...  LINE``` where ```X, Y, Z``` are the occurences of the line in each file.
 
 ## Build and Execute instructions
 A makefile is doing the build  
