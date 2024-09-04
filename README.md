@@ -4,7 +4,7 @@ Ce projet a pour but de chercher dans des fichiers textes l'occurence des lignes
 - 2ème cas : *2 fichiers ou plus* sont traités, cette fois le programme affiche les lignes aparaissants au moins une fois dans chaque fichier avec leurs ocurrences dans chacun de ces fichiers sous la forme ```X, Y, ...  LINE```
 
 ## Build and Execute instructions
-A makefile is doing the build
+A makefile is doing the build\n
 Go to the LineOccurences directory
 ```bash
 cd LinesOccurences
