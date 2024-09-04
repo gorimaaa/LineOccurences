@@ -1,4 +1,13 @@
 # LineOccurences
+Ce projet a pour but de chercher dans des fichiers passés en paramètre et d'afficher dans le premier cas les numéros de lignes qui ont au moins 2 occurences identiques dans un seul fichier sous la forme ```X, Y  LINE```, 
+dans le deuxième cas 2 fichiers ou plus sont traités, cette fois le programme affiche les lignes aparaissants au moins une fois dans chaque fichier avec leurs ocurrences dans chacun de ces fichiers sous la forme ```X, Y, ...  LINE```
+
+## Build instructions
+A makefile is doing the build
+Go to the LineOccurences directory
+```bash
+make
+```
 Voici le helper du programme : 
 ![Capture d'écran 2023-11-13 201617](https://github.com/gorimaaa/occurences_lignes/assets/136479651/6ed60a90-09a1-4f65-822d-96a2e5f5dd36)
 [Capture vidéo du 03-09-2024 19:05:43.webm](https://github.com/user-attachments/assets/a5cc70ed-3f9e-46ba-be44-a5b71e3d6cb7)
