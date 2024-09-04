@@ -1,7 +1,7 @@
 # LineOccurences
-Ce projet a pour but de chercher dans des fichiers textes l'occurence des lignes, il y a deux exemples d'usage:
-- 1er cas :  *1 fichier* est passé en paramètre dans ce cas les numéros de lignes qui ont au moins 2 occurences identiques sont affichés sous la forme ```X, Y, Z, ...  LINE```
-- 2ème cas : *2 fichiers ou plus* sont traités, cette fois le programme affiche les lignes aparaissants au moins une fois dans chaque fichier avec leurs ocurrences dans chacun de ces fichiers sous la forme ```X, Y, ...  LINE```
+This project aims to search for occurences in files, there are two type of usage :  
+- **1st case** : **1 file** is given in parameter, in this case the lines that have at least 2 occurences are displayed like this ```X, Y, Z, ...  LINE``` where X, Y, Z are the line numbers.
+- **2nd case** : **2 files or more** are given, this time the program displays the lines that appear at least one time in each files, ```X, Y, Z, ...  LINE``` where X, Y, Z are the occurences of the line in each file.
 
 ## Build and Execute instructions
 A makefile is doing the build  
@@ -16,7 +16,6 @@ make
 We can add options to our search, they are specified in the helper :  
 ```bash
 ./lnid --help
-\\\
 #  Usage: ./lnid [OPTIONS] FILE [OTHER_FILES]
 #  LIST OF OPTIONS :
 #    -f CLASS or --filter=CLASS : Display lines where the characters respect
@@ -39,13 +38,6 @@ We can add options to our search, they are specified in the helper :
 #   an example: ./lnid -s standard --uppercasing test1.txt test2.txt, 
 #   then we will display the lines that occur at least one time in each 
 #   file given, an example of display : 1-->2-->baseball
-\\\
 ```
 ## Examples of usage
-First Case of use :  
-```bash
-
-```
-
-Second case :  
-![Image2](https://github.com/gorimaaa/occurences_lignes/assets/136479651/249dbd97-4ba1-4a7f-990e-6b43e599a0df)
+TODO
